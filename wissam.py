@@ -51,7 +51,7 @@ if prompt := st.chat_input("Kteb risala dyalek hna..."):
             try:
                 # I3dad dyal Gemini
                 genai.configure(api_key=API_KEY)
-                model = genai.GenerativeModel('gemini-pro')
+                model = genai.GenerativeModel('gemini-1.5-flash')
                 
                 # Animation sghira dyl loading
                 message_placeholder = st.empty()
